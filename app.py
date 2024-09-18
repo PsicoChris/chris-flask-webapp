@@ -1,11 +1,11 @@
 #esto es para iniciar la aplicación de Flask
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-  return "Hello, sapoperro"
+  return render_template('home.html')
 
 #esto es para que corra el flask sin dañar las otras configs
 
