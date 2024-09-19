@@ -25,8 +25,9 @@ JOBS = [
   },
   {
     'id' : 4,   
-    'title' : 'Data Analyst',
+    'title' : 'Frontend Engineer',
     'location' : 'Bogota, Colombia',
+    'salary' : 'COP $12,000,000',
 
   }
   
